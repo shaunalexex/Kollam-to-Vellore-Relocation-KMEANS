@@ -2,14 +2,14 @@
 
 ## TABLE OF CONTENTS
 
-* INTRODUCTION/BUSINESS PROBLEM
-* DATA DESCRIPTION
-* METHODOLOGY
-* ANALYSIS
-* RESULTS AND DISCUSSION
-* CONCLUSION
+* [INTRODUCTION: BUSINESS PROBLEM](##-introduction:-business-problem)
+* [DATA DESCRIPTION](##-data-description)
+* [METHODOLOGY](##-methodology)
+* [ANALYSIS](##-analysis)
+* [RESULTS AND DISCUSSION](##-results-and-discussion)
+* [CONCLUSION](##-conclusion)
 
-## INTRODUCTION / BUSINESS PROBLEM
+## INTRODUCTION: BUSINESS PROBLEM
 
 This project is based on a problem that my friend faced in college. I currently study at Vellore Institute of Technology, Vellore as a 4th year Engineering student. My friend and I both moved from Kerala, India to Tamil Nadu, India for our higher studies. While moving to a new location it can be really tough to find out the right location on the basis of accessibility, distance, services etc. With this project I am looking to help my friend who is based in Kollam, Kerala to find the right location to shift to in Vellore, Tamil Nadu. 
 The reason I consider this to be a tough problem is because Vellore is quite underdeveloped and it can be hard to find a place to live, while Kollam is quite developed with lots of different venues and locations of different types. So for someone who is moving from an area like Kollam to VIT Vellore, this project will try to find similar locations in Vellore to locations in Kollam using clustering. Here the k means clustering algorithm is used to achieve the task. Folium library can be used to visualize the clusters in both cities
@@ -37,22 +37,27 @@ The clusters obtained can be analyzed to find which locations are similar betwee
 After obtaining the results we can sort the them based on the distance to VIT university and select the best options.
 
 ## ANALYSIS
-***Neighbourhoods in Kollam***
-![kollam_neighbourhoods](https://octodex.github.com/images/yaktocat.png)
-***Clusters in Kollam***
-![kollam_clusters](https://octodex.github.com/images/yaktocat.png)
-***Neighbourhoods in Vellore***
-![vellore_neighbourhoods](https://octodex.github.com/images/yaktocat.png)
-***Clusters in Vellore***
-![vellore_clusters](https://octodex.github.com/images/yaktocat.png)
+### Neighbourhoods in Kollam
+These are the neighbourhoods found initially in Kollam, Kerala
+![kollam_neighbourhoods](Images/kollam_initial.PNG)
+### Clusters in Kollam
+After using K Means clustering the neighbourhoods in Kollam are clustereed as follows
+![kollam_clusters](Images/kollam_cluster.PNG)
+### Neighbourhoods in Vellore
+These are the neighbourhoods found initially in Vellore, Tamil nadu
+![vellore_neighbourhoods](Images/vellore_initial.PNG)
+### Clusters in Vellore
+After using K Means clustering the neighbourhoods in Vellore are clustered as follows
+![vellore_clusters](Images/vellore_cluster.PNG)
 
-## RESULTS
+## RESULTS AND DISCUSSION
 
-***Neighbourhoods in Vellore similar to Kilikollur, Kollam***
-![kilikollur](https://octodex.github.com/images/yaktocat.png)
+### Neighbourhoods in Vellore similar to Kilikollur, Kollam
+![kilikollur](Images/kilikollur_vellore_cluster.PNG)
+As we can see the clusters are distributed across the map at varying distances. Coming back to our original problem. Our aim is to find the best location for my friend to say outside college and hence we need to find places closer to college
 
-***Neighbourhood sorted by distance to VIT***
-![result](https://octodex.github.com/images/yaktocat.png)
+### Neighbourhood sorted by distance to VIT
+![result](Images/result.PNG)
 
 ## CONCLUSION
 
