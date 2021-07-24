@@ -2,14 +2,14 @@
 
 ## TABLE OF CONTENTS
 
-* [INTRODUCTION: BUSINESS PROBLEM](##-introduction:-business-problem)
+* [INTRODUCTION TO BUSINESS PROBLEM](##-introduction-to-business-problem)
 * [DATA DESCRIPTION](##-data-description)
 * [METHODOLOGY](##-methodology)
 * [ANALYSIS](##-analysis)
 * [RESULTS AND DISCUSSION](##-results-and-discussion)
 * [CONCLUSION](##-conclusion)
 
-## INTRODUCTION: BUSINESS PROBLEM
+## INTRODUCTION TO BUSINESS PROBLEM
 
 This project is based on a problem that my friend faced in college. I currently study at Vellore Institute of Technology, Vellore as a 4th year Engineering student. My friend and I both moved from Kerala, India to Tamil Nadu, India for our higher studies. While moving to a new location it can be really tough to find out the right location on the basis of accessibility, distance, services etc. With this project I am looking to help my friend who is based in Kollam, Kerala to find the right location to shift to in Vellore, Tamil Nadu. 
 The reason I consider this to be a tough problem is because Vellore is quite underdeveloped and it can be hard to find a place to live, while Kollam is quite developed with lots of different venues and locations of different types. So for someone who is moving from an area like Kollam to VIT Vellore, this project will try to find similar locations in Vellore to locations in Kollam using clustering. Here the k means clustering algorithm is used to achieve the task. Folium library can be used to visualize the clusters in both cities
