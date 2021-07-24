@@ -2,12 +2,12 @@
 
 ## TABLE OF CONTENTS
 
-* [INTRODUCTION TO BUSINESS PROBLEM](##-introduction-to-business-problem)
-* [DATA DESCRIPTION](##-data-description)
-* [METHODOLOGY](##-methodology)
-* [ANALYSIS](##-analysis)
-* [RESULTS AND DISCUSSION](##-results-and-discussion)
-* [CONCLUSION](##-conclusion)
+* [INTRODUCTION TO BUSINESS PROBLEM](##introduction-to-business-problem)
+* [DATA DESCRIPTION](##data-description)
+* [METHODOLOGY](##methodology)
+* [ANALYSIS](##analysis)
+* [RESULTS AND DISCUSSION](##results-and-discussion)
+* [CONCLUSION](##conclusion)
 
 ## INTRODUCTION TO BUSINESS PROBLEM
 
